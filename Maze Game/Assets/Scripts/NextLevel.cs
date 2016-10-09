@@ -13,7 +13,7 @@ public class NextLevel : MonoBehaviour
         em.enabled = false;
         winLevel = true;
         //Add it so they can't move for a bit.
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(SceneManager.sceneCount + 1);
 
     }
     void OnGUI(){
