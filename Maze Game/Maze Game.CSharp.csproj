@@ -64,8 +64,11 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -75,6 +78,16 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MazeGenerator\Scripts\BasicMazeGenerator.cs" />
+    <Compile Include="Assets\MazeGenerator\Scripts\DivisionMazeGenerator.cs" />
+    <Compile Include="Assets\MazeGenerator\Scripts\MazeCell.cs" />
+    <Compile Include="Assets\MazeGenerator\Scripts\MazeSpawner.cs" />
+    <Compile Include="Assets\MazeGenerator\Scripts\OldestTreeMazeGenerator.cs" />
+    <Compile Include="Assets\MazeGenerator\Scripts\RandomTreeMazeGenerator.cs" />
+    <Compile Include="Assets\MazeGenerator\Scripts\RecursiveMazeGenerator.cs" />
+    <Compile Include="Assets\MazeGenerator\Scripts\RecursiveTreeMazeGenerator.cs" />
+    <Compile Include="Assets\MazeGenerator\Scripts\RollerBall.cs" />
+    <Compile Include="Assets\MazeGenerator\Scripts\TreeMazeGenerator.cs" />
     <Compile Include="Assets\Scripts\CameraScript.cs" />
     <Compile Include="Assets\Scripts\LoadLevel.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
